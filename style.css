@@ -213,7 +213,7 @@ header {
       .galery .box_images img:hover {
         opacity: .9; }
 
-.content{width: 100%; padding: 3% 15%; display: flex; justify-content: center; align-items: center;}
+.content{width: 100%; padding: 3% 15%; display: flex; justify-content: center; align-items: flex-start; flex-direction: column;}
 .content p{font-family: Jost; font-size: 17px; color: #666;}
 
 .blog_container{width: 100%; grid-gap: 20px; padding: 3% 15%; display: grid; grid-template-columns: 1fr 1fr 1fr;}

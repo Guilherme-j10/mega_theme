@@ -1,19 +1,4 @@
         <?php wp_footer(); ?>
-         <!-- contato -->
-         <section class="contact">
-            <div class="header_contact">
-                <h1>CONTATO</h1>
-            </div>
-            <form action="">
-                <div class="single_line">
-                    <input type="text" name="name" required placeholder="Digite seu nome">  
-                    <input type="email" name="email" requried placeholder="Digite seu email"> 
-                </div>
-                <textarea name="msg" required placeholder="Digite sua mensagem aqui"></textarea>
-                <input type="submit" name="send_message" placeholder="ENVIAR MENSAGEM">
-            </form>
-        </section>
-
         <!-- footer -->
         <footer>
             <p>&copy <?= date('Y'); ?> <?php bloginfo('name'); ?> - Desenvolvido por Mega Conecta</p>

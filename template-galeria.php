@@ -7,7 +7,7 @@
     <!-- galeria -->
     <section class="galery">
         <div class="header_galery">
-            <h1>GALERY</h1>
+            <h1>GALERIA</h1>
         </div>
         <div class="box_images">
             <?php

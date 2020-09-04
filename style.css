@@ -22,6 +22,7 @@ Version: 1.0
 
 #header {
   position: fixed;
+  z-index: 9999;
   background-color: #00000055;
   padding: 1% 15%; }
 
@@ -225,7 +226,7 @@ header {
   width: 100%;
   padding: 3% 15%;
   display: flex;
-  background-color: #111;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
   flex-direction: column; }
@@ -235,7 +236,7 @@ header {
     justify-content: center;
     margin-bottom: 20px; }
     .contact .header_contact h1 {
-      color: #ccc;
+      color: #555;
       letter-spacing: 3px; }
   .contact form {
     width: 60%;
@@ -258,21 +259,21 @@ header {
         width: 100%;
         padding: 12px;
         margin: 0px 5px;
-        background-color: #111;
-        color: #fff;
+        background-color: #fff;
+        color: #333;
         border: solid 2px #444; }
     .contact form textarea {
       width: 100%;
       padding: 12px;
-      background-color: #111;
-      color: #fff;
+      background-color: #fff;
+      color: #333;
       border: solid 2px #444;
       margin: 0px 5px; }
     .contact form input[type=submit] {
-      width: 120px;
-      background-color: #fff;
+      width: 180px;
+      background-color: #333;
       font-size: 15px;
-      color: #333;
+      color: #fff;
       cursor: pointer;
       margin-top: 20px;
       padding: 12px;

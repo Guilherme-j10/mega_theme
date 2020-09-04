@@ -47,6 +47,6 @@
 
                 ?>
             </div>
-            <a href="<?php echo bloginfo('url').'/Blog'; ?>">Ver todos >></a>
+            
         </section>
 <?php get_footer(); ?>

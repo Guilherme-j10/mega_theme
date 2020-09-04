@@ -25,6 +25,10 @@ Version: 1.0
   background-color: #00000055;
   padding: 1% 15%; }
 
+.easy-image-gallery{
+  display: none;
+}
+
 header {
   width: 100%;
   display: flex;

@@ -34,10 +34,10 @@
 
                         if(count($explode) > 3):
                     ?>
-                        <h1><?= the_title(); ?></h1>
+                        <h1><?php the_title(); ?></h1>
                         <p><?php the_content(); ?></p>
                     <?php else: ?>
-                        <h1><?= bloginfo('name'); ?></h1>
+                        <h1><?php bloginfo('name'); ?></h1>
                         <p><?php bloginfo('description'); ?></p>
                     <?php endif; ?>
                 </div>

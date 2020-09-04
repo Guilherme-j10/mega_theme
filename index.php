@@ -49,19 +49,4 @@
             </div>
             <a href="<?php echo bloginfo('url').'/Blog'; ?>">Ver todos >></a>
         </section>
-
-        <!-- galeria -->
-        <section class="galery">
-            <div class="header_galery">
-                <h1>GALERY</h1>
-            </div>
-            <div class="box_images">
-                <img src="<?php bloginfo('template_url'); ?>/assets/imagens/160406.jpg" alt="">
-                <img src="<?php bloginfo('template_url'); ?>/assets/imagens/160406.jpg" alt="">
-                <img src="<?php bloginfo('template_url'); ?>/assets/imagens/160406.jpg" alt="">
-                <img src="<?php bloginfo('template_url'); ?>/assets/imagens/160406.jpg" alt="">
-                <img src="<?php bloginfo('template_url'); ?>/assets/imagens/160406.jpg" alt="">
-                <img src="<?php bloginfo('template_url'); ?>/assets/imagens/160406.jpg" alt="">
-            </div>
-        </section>
 <?php get_footer(); ?>
